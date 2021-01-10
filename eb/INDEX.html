@@ -1,0 +1,286 @@
+<html>
+<head>
+<title>e-book website
+</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>  
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="style.css"> 
+
+
+</head>
+<body>
+<header>
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-12 col-12 ">
+<div class="btn-group">
+<button class="btn border dropdown-toggle my-md-12 my-2 text-white"data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">USD</button>
+<div class="dropdown-menu">
+ <a href="#" class="dropdown-item">INR</a>
+ <a href="#" class="dropdown-item">NPR</a>
+ <a href="#" class="dropdown-item">AFN</a>
+
+</div>
+</div>
+</div>
+<div class="col-md-4 col-12 text-center ">
+<h2 class="my-md-3 site-title text-white "> EBOOKS</h2>
+</div>
+<div class="col-md-4 col-12 text-right">
+<p class="my-md-4 header-links">
+<a href="n.html" class="px-2">SIGH IN</a>
+<a href="mas.html" class="px-1">CREATE AN ACCOUNT</a>
+</p>
+</div>
+</div>
+</div>
+<div class="container-fluid p-0">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="ebook.html">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FEATURES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">WEBSITE</a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="#">SHOP </a>
+      </li>
+	   <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT US</a>
+      </li> <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT US</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">ON OFFER</a>
+      </li>
+	  </li><li class="nav-item">
+        <a class="nav-link" href="home1.html">ON SELL</a>
+      </li>
+     
+     
+    </ul>
+  </div>
+  <div class="navbar-nav">
+  <div class="search-box">
+      <i class="fa fa-bars"id="menu-btn" onclick="openmenu()"></i>
+      <i class="fa fa-times"id="close-btn"onclick="closemenu()"></i>
+      
+
+
+<input type="text"class="form-control">
+<span class="input-group-text"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+</svg></span>
+</div>
+<div class="collapse navbar-collapse "style="margin-top:20px;padding:20px;height:20px;width:40px;"   id="navbarNav" >
+<ul class="navbar-nav">
+<li class="navbar-item"><a href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-basket" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 1 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z"/>
+  <path fill-rule="evenodd" d="M1 7v1h14V7H1zM.5 6a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H.5z"/>
+  <path fill-rule="evenodd" d="M14 9H2v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9zM2 8a1 1 0 0 0-1 1v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1H2z"/>
+  <path fill-rule="evenodd" d="M4 10a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
+</svg>cart</a></li>
+
+
+</ul>
+</div>
+  </div>
+</nav>
+</div> 
+
+</header><hr>
+<main>
+<div class="container-fluid p-0 ">
+
+
+<div class="side-slider">
+<div class="slider-one">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" id="abc">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="eb1.jpg" width="100%" height="70%" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>B.TECH BOOKS </h5>
+        <p>HERE YOU FIND B.TECH I.T. 2nd year Books</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="eb2.jpg" width="100%"  height="70%"alt="...">
+      <div class="carousel-caption d-none d-md-block">
+       <h5>B.TECH </h5>
+        <p>B.TECH 3RD SEM ALL BOOKS NOTES</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="eb3.jpg" width="100%"  height="70%" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>EBOOKS</h5>
+        <p>BEST WAY TO LEARN</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+</div><br/><br/><br/>
+
+
+<div class="container-fluid">
+ <div class="title-box">
+        <h2>EBOOKS I.T.</h2>
+        
+      </div>
+<div class=" site-slider-two px-md-4">
+<div class="row slider-2 text-center">
+<div class="col-md-2 product pt-md-5 pt-4">
+  <a href="CSS.pdf"><img src="css.jpg" alt="product-1" class="img-fluid"></a>
+<span class="border site-btn btn-span">CSS</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+  <a href="DS.pdf"><img src="ds.jpg" alt="product-2" class="img-fluid"></a>
+<span class="border site-btn btn-span"> DS</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="COA.pdf"><img src="coa.jpg" alt="product-3" class="img-fluid"></a>
+<span class="border site-btn btn-span"> COA</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="ESC.pdf"><img src="coa.jpg" alt="product-4" class="img-fluid"></a>
+<span class="border site-btn btn-span">  ESC</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="COA1.pdf"><img src="coa1.jpg" alt="product-5" class="img-fluid"></a>
+<span class="border site-btn btn-span">COA-UNIT 1</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="COA2.pdf"><img src="css.jpg" alt="product-6" class="img-fluid"></a>
+<span class="border site-btn btn-span">COA UNIT 2</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+<div class=" site-slider-two px-md-4">
+<div class="row slider-2 text-center">
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="DSTL.pdf"><img src="ds.jpg" alt="product-1" class="img-fluid"></a>
+<span class="border site-btn btn-span">DSTL</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="PYTHON.pdf"><img src="css.jpg" alt="product-2" class="img-fluid"></a>
+<span class="border site-btn btn-span"> PYTHON</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="HV.pdf"><img src="coa.jpg" alt="product-3" class="img-fluid"></a>
+<span class="border site-btn btn-span"> HV</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="Introduction and Security Trends.pdf"><img src="st.jpg" alt="product-4" class="img-fluid"></a>
+<span class="border site-btn btn-span">  Security Trends</span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="Ethical Hacking.pdf"><img src="st.jpg" alt="product-5" class="img-fluid"></a>
+<span class="border site-btn btn-span"> Ethical Hacking </span>
+</div>
+<div class="col-md-2 product pt-md-5 pt-4">
+    <a href="ML.pdf"><img src="st.jpg" alt="product-6" class="img-fluid"></a>
+<span class="border site-btn btn-span">ML</span>
+</div>
+
+</div>
+</div>
+</div><BR><BR/>
+
+<div class="container-fluid  ">
+<div class="title-box">
+        <h2 class="text-center"> FEATURED BRAND</h2>
+        
+      </div>
+
+
+
+
+
+
+</main>
+<footer>
+<section class="footer">
+    <div class="container"text -center>
+      <div class="row">
+        <div class="col-md-3">
+<h1>Useful links</h1>
+<p>privacy policy</p>
+<p>Terms of use</p>
+<p>Return policy</p>
+<p>Discount coupens</p>
+
+        </div>
+        <div class="col-md-3">
+          <h1>Company</h1>
+          <p>About us</p>
+          <a href="contact.html"> <p>Contact Us</p></a>
+          <p>Carrer</p>
+          <p>Affilate</p>
+          
+                    </div>
+                    <div class="col-md-3">
+                      <h1>Follow us on</h1>
+                      <p> <i class="fa fa-facebook-official"></i>Facebook</p>
+                      <p> <i class="fa fa-youtube-play"></i>Youtube</p>
+                      <p> <i class="fa fa-linkedin"></i>Twitter</p>
+                      <p> <i class="fa fa-twitter"></i>Linkedin</p>
+                      
+                                </div>
+                                <div class="col-md-3 footer-image">
+                                  <h1>Downloade the App</h1>
+                                  <img src="gh.jpg" height="150px" width="700px">
+
+                                  
+                                  
+                                            </div>
+      </div>
+      <hr>
+      <p class="copyright">Made with<i class="fa fa-heart-o"></i> by Gaurav Tripathi</p>
+    </div>
+    </section>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>

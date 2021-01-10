@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato&family=Roboto:wght@100&family=Sofia&display=swap');
+header{
+	background-color:skyblue;
+	font-family:lato;
+	
+}
+header.site-title
+{
+	font-family:gugi;
+}
+container.dropdown-toggle
+container.dropdown-item
+{
+	font-size:0.7em;
+	
+}
+.header-links a{
+	text-decoration:none;
+	color:#ffff;
+	font-size:0.9em;
+	
+	
+}
+.navbar-nav{
+	padding:0.8em 0em;
+	
+}
+.navbar-nav .nav-link{
+	font-size:0.9em;
+	color:lightgrey !important;
+	
+	
+}
+.navbar-nav .nav-item  .nav-link{
+	
+	padding: 0 1.3em;
+	
+	
+	
+	
+}
+.navbar-nav .basket-icon{
+	margin-right:6.5rem!important ;
+	
+	
+}
+.site-slider-two{
+	position:relative;
+	height:30%;
+	
+}
+.site-slider-two .products{
+	height:25rem;
+	position:relative;
+	overflow:hidden;
+	
+	
+	
+}
+.site-slider-two .products img{
+	width:90%;
+	margin:auto;
+	
+	
+	
+	
+}
+.site-btn.btn-span{
+	padding:0.8rem 1.9rem;
+	border-radius:4rem;
+	border: 1px solid black;
+	background-color:#ffff;
+	color:maroon;
+	
+	
+}
+.footer{
+	margin: 50px;
+	background-color: skyblue;
+	color: #fff;
+}
+.footer h1{
+	font-size: 15px;
+	margin: 25 0;
+}
+.footer p{
+	font-size: 12px;
+
+
+
+}
+.copyright{
+margin-bottom: -80px;
+text-align: center;
+font-size: 15px;
+padding-bottom: 20px;
+
+}
+.fa-heart-o{
+color: red;
+font-size: 15px;
+}
+.footer hr{
+	margin-top:10px;
+	background-color: #ccc;
+}
+.footer-image img{
+
+	width:150px;
+}
+.footer .row .fa{
+padding-right: 20px;
+font-size: 15px;
+
+}
+.navbar-nav{
+	height:57px;
+	top:0;
+	position:sticky;
+	background:#fff;
+	margin-bottom:20px;
+	
+	z-index:2;
+	
+	
+}
+.search-box{
+	display:inline-flex;
+	width:60%;
+	height:100%;
+	margin-top:5px;
+	
+}
+.fa-search{
+	color:#fff;
+}
+.title-box{
+background: skyblue;
+color: #fff;
+width: 180px;
+padding: 4px 10px;
+height: 40px;
+margin-bottom: 30px;
+display: flex;
+
+}
+.title-box h2{
+	font-size: 24px;
+}
+.title-box::after{
+content: '';
+border-top: 40px solid blue;
+border-right: 50px solid transparent;
+position: absolute;
+margin-top: -4px;
+margin-left: 170px;
+
+}
